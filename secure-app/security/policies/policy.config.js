@@ -7,5 +7,6 @@ export default {
   securityMisconfiguration: true,
   insecureDeserialization: false,
   componentVulnerabilityCheck: true,
-  loggingAndMonitoring: true
+  loggingAndMonitoring: true,
+  corsProtection: true
 };
