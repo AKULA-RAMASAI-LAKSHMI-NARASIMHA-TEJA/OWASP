@@ -12,7 +12,7 @@ export default function (req, res, next) {
   };
 
   if (hasInjection(req.body) || hasInjection(req.query) || hasInjection(req.params)) {
-    return res.status(400).json({ error: '🚨 Potential injection detected' });
+    return res.status(400).json({ error: 'Potential injection detected' });
   }
 
   next();
